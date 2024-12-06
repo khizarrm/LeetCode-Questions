@@ -1,0 +1,3 @@
+class Solution {
+Python3Auto1617181920212223242526272829            # if total > target:            #     return            for i in range(startIndex,len(candidates)):                if candidates[i] + total > target:                    break                total += candidates[i]                self.path.append(candidates[i])                backtracking(total,candidates,target,i)                total -= candidates[i]                self.path.pop()        candidates.sort()  # sort Before backTracking        backtracking(0,candidates,target,0)                return self.resSavedLn 29, Col 24
+}
