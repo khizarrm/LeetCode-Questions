@@ -1,0 +1,18 @@
+class Solution  {
+	public void nextPermutation(int[] nums)  {
+		int pivot = pivotElement(nums);
+		if(pivot == -1) {
+			Arrays.sort(nums);
+			
+		}
+		
+		else {
+			nextGreatestPermutation(nums,pivot);
+			
+		}
+		return;
+		
+	}
+	private void nextGreatestPermutation(int[] nums, int pivot) {
+		int swappedIndex = -1;
+		SavedLn 1, Col 1
