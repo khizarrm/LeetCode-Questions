@@ -1,0 +1,16 @@
+class Solution {
+C++Auto1112131415161718192021222324      int ind = 0;
+int ans = 0;
+while(ind < nums.size() - 1)       {
+	ans++;
+	ind = nums[ind];
+	
+}
+return ans;
+
+}
+
+}
+;
+SavedLn 24, Col 1
+}
