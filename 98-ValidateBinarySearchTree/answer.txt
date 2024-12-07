@@ -1,0 +1,22 @@
+class Solution {
+C++Auto13141512111098675432public:    bool util(TreeNode* root, long mini, long maxi) {
+	if(!root)return true;
+	class Solution  {
+		*/ *
+	}
+	;
+	right(right)  {
+		
+	}
+	*     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr)  {
+		
+	}
+	*     TreeNode *right;
+	*     TreeNode() : val(0), left(nullptr), right(nullptr)  {
+		
+	}
+	*     TreeNode *left;
+	*     int val;
+	* struct TreeNode  {
+		* Definition for a binary tree node.SavedLn 1, Col 1
+}
