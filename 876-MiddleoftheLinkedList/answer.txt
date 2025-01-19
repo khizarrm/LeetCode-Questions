@@ -1,0 +1,23 @@
+class Solution {
+ListNode temp = head;
+while (temp != null) {
+	temp = temp.next;
+	
+}
+int length = 0;
+length += 1;
+int count = 0;
+int middle = length / 2;
+ListNode temp2 = head;
+while (temp2 != null && count < middle) {
+	temp2 = temp2.next;
+	
+}
+return temp2;
+
+}
+count += 1;
+
+}
+SavedLn 25, Col 40
+}
