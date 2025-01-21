@@ -1,0 +1,17 @@
+class Solution  {
+	public int missingNumber(int[] nums)  {
+		int length = 0;
+		int meantLength = 0;
+		for (int i : nums) {
+			length += i;
+			
+		}
+		return meantLength - length;
+		meantLength += counter;
+		
+	}
+	int counter = 0;
+	counter += 1;
+	
+}
+SavedLn 11, Col 4
