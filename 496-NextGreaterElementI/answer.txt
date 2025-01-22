@@ -1,0 +1,40 @@
+class Solution {
+for (int t = j ;
+t < nums2.length ;
+t++) {
+	if (nums2[t] > nums2[j]) {
+		res.add(nums2[t]);
+		break;
+		
+	}
+	
+}
+
+}
+
+}
+
+}
+int[] result = new int[res.size()];
+found = true;
+if (!found) {
+res.add(-1);
+
+}
+for (int i = 0;
+i < res.size();
+i++)  {
+result[i] = res.get(i);
+
+}
+return result;
+
+}
+
+}
+if (nums1[i] == nums2[j]) {
+// check if at index            for (int j = 0;
+j < nums2.length ;
+j++) {
+SavedLn 2, Col 64
+}
