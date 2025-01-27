@@ -1,0 +1,28 @@
+class Solution {
+public int removeElement(int[] nums, int val)  {
+	int l = 0;
+	int r = nums.length - 1;
+	while (l <= r) {
+		if (nums[r] == val) {
+			nums[r--] = -1;
+			
+		}
+		
+		else if (nums[l] == val) {
+			
+		}
+		continue;
+		nums[l] = -1;
+		
+	}
+	nums[l] = nums[r];
+	int temp = nums[l];
+	nums[r] = temp;
+	l++;
+	int counter = nums.length;
+	counter--;
+	counter--;
+	class Solution  {
+		r--;
+		SavedLn 17, Col 21
+}
