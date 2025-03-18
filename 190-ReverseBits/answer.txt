@@ -1,0 +1,3 @@
+class Solution {
+PythonAuto12345789610class Solution:    # @param n, an integer    # @return an integer    def reverseBits(self, n):        nStr = str(bin(n)[2:]).zfill(32)        reverseN = "".join(list(reversed(nStr)))        print("Reverse", reverseN)        return int(reverseN, 2)        print("nstr", nStr)        SavedLn 5, Col 40
+}
